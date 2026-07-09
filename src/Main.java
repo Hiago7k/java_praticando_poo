@@ -1,6 +1,9 @@
 class Main{
     static void main() {
-        System.out.println("Hello World");
+        ContaBancaria contaBradesco = new ContaBancaria();
+        contaBradesco.depositar(500);
+        contaBradesco.exibeSaldo();
+
     }
 }
 
