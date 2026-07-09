@@ -13,10 +13,15 @@ class Main{
         idadePessoa pessoa1 = new idadePessoa();
         pessoa1.setNome("Hiago Mendes");
         pessoa1.setIdade(13);
-        System.out.println("Nome: " + pessoa1.getNome());
-        System.out.println("idade: " + pessoa1.getIdade());
+//        System.out.println("Nome: " + pessoa1.getNome());
+//        System.out.println("idade: " + pessoa1.getIdade());
 
-
+        Produto perifericos = new Produto();
+        perifericos.setNome("Teclado");
+        perifericos.setPreco(199);
+        System.out.println("Anuncio periferico: " + perifericos.getNome() + " valor " + perifericos.getPreco());
+        perifericos.aplicaDesconto(10); // 10%
+        System.out.println("Valor do produto após o desconto " + perifericos.getNome() + " valor " + perifericos.getPreco());
     }
 }
 
