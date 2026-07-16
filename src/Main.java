@@ -8,6 +8,9 @@ class Main{
 
     System.out.println("Saldo apos todas as operacoes "+ contaHiago.consultarSaldo());
 
+    System.out.println();
+    ContaCorrente tarifas = new ContaCorrente();
+    tarifas.cobrarTarifaMensal();
 
     }
 }

@@ -1,5 +1,5 @@
 public class BankAccount {
-    private double saldo = 5000;
+    protected double saldo = 5000;
 
     public void Sacar(double valor) {
         if (valor <= saldo) {
