@@ -22,7 +22,16 @@ public class Carro {
         System.out.println("Preço ano 3: " + precoAno3);
         System.out.println("Menor preço: " + calcularMenorPreco);
         System.out.println("Maior preço: " + calcularMaiorPreco);
+    }
+    private double calcularMenorPreco(){
+        double menorPreco = precoAno1;
+        if(precoAno2 > menorPreco){
+            menorPreco = precoAno2;
+        }
 
-
+        if(precoAno3 < menorPreco){
+            menorPreco = precoAno3;
+        }
+        return menorPreco;
     }
 }
