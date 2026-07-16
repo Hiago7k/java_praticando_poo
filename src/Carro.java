@@ -20,8 +20,8 @@ public class Carro {
         System.out.println("Preço ano 1: " + precoAno1);
         System.out.println("Preço ano 2: " + precoAno2);
         System.out.println("Preço ano 3: " + precoAno3);
-        System.out.println("Menor preço: " + calcularMenorPreco);
-        System.out.println("Maior preço: " + calcularMaiorPreco);
+        System.out.println("Menor preço: " + calcularMenorPreco());
+        System.out.println("Maior preço: " + calcularMaiorPreco());
     }
     private double calcularMenorPreco(){
         double menorPreco = precoAno1;
