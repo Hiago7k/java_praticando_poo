@@ -4,4 +4,8 @@ public class Gato extends  Animal {
     public void EmitirSom() {
         System.out.println("Miau");
     }
+
+    public void arranharMoveis(){
+        System.out.println("Arranhando moveis");
+    }
 }
