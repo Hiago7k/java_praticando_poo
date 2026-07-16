@@ -1,7 +1,17 @@
 public class Carro {
 
     private String modelo;
-    private int ano;
+    private double precoAno1;
+    private double precoAno2;
+    private double precoAno3;
+
+    public double getPrecoAno1() {
+        return precoAno1;
+    }
+
+    public void setPrecoAno1(double precoAno1) {
+        this.precoAno1 = precoAno1;
+    }
 
     public String getModelo() {
         return modelo;
@@ -11,16 +21,19 @@ public class Carro {
         this.modelo = modelo;
     }
 
-    public int getAno() {
-        return ano;
+    public double getPrecoAno2() {
+        return precoAno2;
     }
 
-    public void setAno(int ano) {
-        this.ano = ano;
+    public void setPrecoAno2(double precoAno2) {
+        this.precoAno2 = precoAno2;
     }
 
-    public void exibeCarros(){
-        System.out.println("Modelo:" + modelo);
-        System.out.println("Ano:" + ano);
+    public double getPrecoAno3() {
+        return precoAno3;
+    }
+
+    public void setPrecoAno3(double precoAno3) {
+        this.precoAno3 = precoAno3;
     }
 }
