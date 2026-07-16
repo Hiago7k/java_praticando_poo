@@ -3,7 +3,7 @@ public class BankAccount {
 
     public void Sacar(double valor) {
         if (valor <= saldo) {
-            saldo = +-valor;
+            saldo = saldo - valor;
             System.out.println("Valor de " + valor + " sacado com sucesso");
             System.out.println("Seu saldo atual é de " + saldo);
         } else {
@@ -14,7 +14,7 @@ public class BankAccount {
 
     public void Depositar(double valor) {
         if (valor > 0) {
-            saldo = + +valor;
+            saldo = saldo + valor;
             System.out.println("Deposito de " + valor + " realizado");
             System.out.println("Saldo atual " + saldo);
         } else {
@@ -25,4 +25,6 @@ public class BankAccount {
     public double consultarSaldo(){
         return  saldo;
     }
+
+
 }
