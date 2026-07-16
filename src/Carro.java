@@ -25,7 +25,7 @@ public class Carro {
     }
     private double calcularMenorPreco(){
         double menorPreco = precoAno1;
-        if(precoAno2 > menorPreco){
+        if(precoAno2 < menorPreco){
             menorPreco = precoAno2;
         }
 
@@ -33,5 +33,18 @@ public class Carro {
             menorPreco = precoAno3;
         }
         return menorPreco;
+    }
+
+    private double calcularMaiorPreco(){
+        double maiorPreco = precoAno1;
+
+        if (precoAno2 > maiorPreco){
+            maiorPreco = precoAno2;
+        }
+
+        if(precoAno3 > maiorPreco){
+            maiorPreco = precoAno3;
+        }
+        return  maiorPreco;
     }
 }
