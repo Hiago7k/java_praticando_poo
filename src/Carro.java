@@ -14,4 +14,15 @@ public class Carro {
         this.precoAno2 = precoAno2;
         this.precoAno3 = precoAno3;
     }
+
+    public void ExibirInfo(){
+        System.out.println("Modelo: " + modelo);
+        System.out.println("Preço ano 1: " + precoAno1);
+        System.out.println("Preço ano 2: " + precoAno2);
+        System.out.println("Preço ano 3: " + precoAno3);
+        System.out.println("Menor preço: " + calcularMenorPreco);
+        System.out.println("Maior preço: " + calcularMaiorPreco);
+
+
+    }
 }
