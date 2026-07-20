@@ -10,7 +10,7 @@ public class CalculadoraSalaRetangular implements CalculoGeometrico {
     @Override
     public double calcularPerimetro(double base, double altura) {
         double perimetro = 0;
-        perimetro = perimetro + base * altura * 2;
+        perimetro = perimetro + (base + altura) * 2;
         return  perimetro;
     }
 }
