@@ -3,4 +3,5 @@ public interface CalculoGeometrico {
     // perimetro soma de todos os lados
 
     double calcularArea(double base, double altura);
+    double calcularPerimetro(double base, double altura);
 }
