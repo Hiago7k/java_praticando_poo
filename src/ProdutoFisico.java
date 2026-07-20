@@ -1,5 +1,5 @@
 public class ProdutoFisico {
-    private int desconto = 0;
-    private int taxaAdicional = 20;
-    private int preco = 100;
+    private double desconto = 0;
+    private double taxaAdicional = 20;
+    private double preco = 100;
 }

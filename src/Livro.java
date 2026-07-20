@@ -1,5 +1,5 @@
 public class Livro {
-    private int desconto = 10;
-    private int taxaAdicional = 0;
-    private int preco = 100;
+    private double desconto = 10;
+    private double taxaAdicional = 0;
+    private double preco = 100;
 }
