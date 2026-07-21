@@ -3,24 +3,13 @@ public class Pessoa {
     private int idade;
 
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
+    public void PessoasInfo(String nome, int idade){
         this.nome = nome;
-    }
-
-    public int getIdade() {
-        return idade;
-    }
-
-    public void setIdade(int idade) {
         this.idade = idade;
     }
 
     @Override
     public String toString() {
-        return "Dados da pessoa: " + getNome() + " " + getIdade();
+        return "Dados da pessoa: " + nome + " " + idade;
     }
 }
