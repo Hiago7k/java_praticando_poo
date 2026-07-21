@@ -21,6 +21,6 @@ public class Pessoa {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Dados da pessoa: " + getNome() + " " + getIdade();
     }
 }
