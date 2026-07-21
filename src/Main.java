@@ -13,7 +13,9 @@ class Main{
         listaDePessoas.add(pessoa1);
         listaDePessoas.add(pessoa2);
         listaDePessoas.add(pessoa3);
-        System.out.println(listaDePessoas);
+        System.out.println("Tamanho da lista: " + listaDePessoas.size());
+        System.out.println("Exibindo o primeiro da lista " + listaDePessoas.get(0));
+        System.out.println("Lista completa " + listaDePessoas);
     }
 }
 
